@@ -1,11 +1,13 @@
-import './styles/App.css'
+import '../styles/MainPage.css'
+import Header from '../components/Header'
 
-function App() {
+function MainPage() {
   return (
     <div>
+    <Header />
       <h1>Мой сайт-визитка</h1>
       <p>Скоро здесь будут страницы Home, About, Portfolio</p>
     </div>
   )
 }
-export default App
+export default MainPage
